@@ -1,0 +1,53 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.table {
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: lightgray;
+    border: 0px !important;
+}
+
+.row {
+    background-color: lightgray;
+    padding: 10px;
+    border: 0px;
+    width: 105.6%;
+}
+
+.add-content {
+    
+}
+
+.button {
+    border-top: 0px !important;
+    border-bottom: 1px solid black !important;
+    border-right: 0px !important;
+    background-color: #ededed;
+    border-left: 1px solid black !important;
+}
+
+.button:hover {
+    background-color: #adb8c9;
+}
